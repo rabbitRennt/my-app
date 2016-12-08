@@ -2,7 +2,7 @@
     <md-card flex-sm="100" flex-gt-sm="60" flex-gt-md="40">
     <form name="form" novalidate ng-submit="login($event)">
         <md-card-content>
-        <h2 class="md-title">用户登录</h2>
+        <h2 class="md-title">用户登录１{{helloTo.title}}</h2>
         <p class="error" ng-show="authenticationError">用户登录失败，请检查输入</p>
         <div class="inset"></div>
         <md-input-container class="md-block"> <label>用户名</label>
@@ -25,6 +25,8 @@
             layout-align="space-between center"> <md-checkbox
             ng-model="rememberMe" class="md-primary">保持登录</md-checkbox> <md-button
             type="submit" class="md-primary md-raised">登录</md-button> </md-card-actions>
+            
+         <input type="text"  ng-model="message" value="{{student.param() | uppercase}}" >
     </form>
     </md-card>
 </div>

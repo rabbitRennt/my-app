@@ -19,7 +19,7 @@ angular.module('myApp').config(function($stateProvider, $urlRouterProvider) {
     url: '/index',
     views : {
       'main@' : {
-        templateUrl : 'views/dashboard.html',
+        templateUrl : 'main.html',
         controller : 'DashboardCtrl',
       }
     }

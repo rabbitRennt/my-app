@@ -3,16 +3,23 @@ spring boot + angular web
 
 <hr/>
 1.通过mav命令创建springboot工程(还可以用别的方式)
-mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate 
+-DgroupId=com.mycompany.app 
+-DartifactId=my-app 
+-DarchetypeArtifactId=maven-archetype-quickstart 
+-DinteractiveMode=false
 
+命令说明
 mvn archetype:generate:固定格式
 -DgroupId:组织标识（包名）
 -DartifactId:项目名称
--DarchetypeArtifactId:指定构建的项目类型，maven-archetype-quickstart是一个通用的java 项目。
+-DarchetypeArtifactId:指定构建的项目类型
+maven-archetype-quickstart是一个通用的java 项目
 -DinteractiveMode:是否使用交互模式
 
 <hr/>
 2.　pom.xml中添加依赖
+<br>
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -73,7 +80,7 @@ mvn archetype:generate:固定格式
 <hr/>
 3.　add spring boot start clsss
 
-  package com.example.demo;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -117,4 +124,4 @@ spring.datasource.password=123456
   首页
 </body>
 </html>
-
+6.启动　

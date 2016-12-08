@@ -124,4 +124,5 @@ spring.datasource.password=123456
   首页
 </body>
 </html>
+<hr/>
 6.启动　

@@ -10,12 +10,12 @@ mvn archetype:generate
 -DinteractiveMode=false
 
 命令说明
-mvn archetype:generate:固定格式
--DgroupId:组织标识（包名）
--DartifactId:项目名称
--DarchetypeArtifactId:指定构建的项目类型
-maven-archetype-quickstart是一个通用的java 项目
--DinteractiveMode:是否使用交互模式
+mvn archetype:generate:固定格式<br/>
+-DgroupId:组织标识（包名）<br/>
+-DartifactId:项目名称<br/>
+-DarchetypeArtifactId:指定构建的项目类型<br/>
+maven-archetype-quickstart是一个通用的java 项目<br/>
+-DinteractiveMode:是否使用交互模式<br/>
 
 <hr/>
 2.　pom.xml中添加依赖
